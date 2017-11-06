@@ -1,20 +1,49 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
   <title>Bio: Gavin Wayne Williams</title>
-  <meta charset="UTF-8">
-  <link rel="stylesheet" href="styles.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <!--<link rel="stylesheet" href="styles.css">-->
 </head>
 <body>
-
-    <ul>
-      <li><a href="./index.html">Home</a></li>
-      <li><a href="./about-me.html">About me</a></li>
-      <li><a href="./places.html">Places visited</a></li>
+  <div class="container">
+    <ul class="nav nav-tabs">
+      <li role="presentation" class="active"><a href="./index.html">Home</a></li>
+      <li role="presentation"><a href="./about-me.html">About me</a></li>
+      <li role="presentation"><a href="./places.html">Places visited</a></li>
     </ul>
-
     <h1 class="index">Welcome to Gavin's Bio.</h1>
 
-  <img title="This photo was taken in 2010. Venue: Langebaan, Shark Bay" src="./me.jpg" alt="A picture of me." width="500" height="377">
+    <img title="This photo was taken in 2010. Venue: Langebaan, Shark Bay" src="./me.jpg" alt="A picture of me.">
+</div>
+
 </body>
+<style>
+body {
+  background-color: lightblue;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: red;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+</style>
 </html>
