@@ -1,17 +1,21 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <title>About me</title>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <!--<link rel="stylesheet" href="styles.css">-->
   </head>
   <body>
-    <ul>
-      <li><a href="./index.html">Home</a></li>
-      <li><a href="./about-me.html">About me</a></li>
-      <li><a href="./places.html">Places visited</a></li>
-    </ul>
-
+    <div class="container">
+      <ul class="nav nav-tabs">
+        <li role="presentation"><a href="./index.html">Home</a></li>
+        <li role="presentation" class="active"><a href="./about-me.html">About me</a></li>
+        <li role="presentation"><a href="./places.html">Places visited</a></li>
+      </ul>
     <h1 title="Just a little bit about me"><u>About me</u></h1>
     <table>
       <tr>
@@ -50,5 +54,45 @@
       <tr>
         <td>Collecting Retro art, and ornaments. </td>
       </tr>
-    </body>
+  </div>
+  </body>
 </html>
+<style>
+body {
+
+  background-color: lightblue;
+}
+
+table, th, td {
+
+      border: 1px solid black;
+      border-collapse: collapse;
+      width: 50%;
+}
+
+th, td {
+
+      padding: 5px;
+      text-align: left;
+}
+
+ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: black;
+}
+
+li {
+      float: left;
+}
+
+li a {
+      display: block;
+      color: red;
+      text-align: center;
+      padding: 16px;
+      text-decoration: none;
+}
+</style>
