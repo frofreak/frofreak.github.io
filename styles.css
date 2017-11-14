@@ -1,22 +1,23 @@
 body {
-  background-color: lightblue;
+  background-color: transparent;
 }
 table tbody tr td {
   border: 1px solid black;
 }
 .table-bordered>tbody>tr>td {
-  border-color: black !important;
+  border-color: gray !important;
 }
-th, td {
+td {
   padding: 5px;
   text-align: left;
+  color: white;
 }
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: black;
+  background-color: transparent;
 }
 li {
   float: left;
@@ -29,7 +30,7 @@ li a {
   text-decoration: none;
 }
 footer {
-  background-color: black;
+  background-color: transparent;
   text-align: center;
   color: red;
 }
@@ -46,7 +47,7 @@ img.signature1 {
   text-align: center;
 }
 h1.index {
-  color: blue;
+  color: lightblue;
   text-align: center;
 }
 img.index-image {
@@ -77,4 +78,11 @@ img.signature2 {
 }
 .row {
   margin-bottom: 10px;
+}
+html {
+background: url(./background.jpg) no-repeat center center fixed;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: 100% 100%;
 }
