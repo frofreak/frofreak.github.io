@@ -4,35 +4,42 @@
   <title>Bio: Gavin Wayne Williams</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <link rel="stylesheet" href="./css/styles.css">
 </head>
-<body>
-  <div class="container">
-    <ul class="nav nav-tabs">
-      <li role="presentation" class="active"><a href="./index.html">Home</a></li>
-      <li role="presentation"><a href="./about-me.html">About me</a></li>
-      <li role="presentation"><a href="./places.html">Places visited</a></li>
-      <li role="presentation"><a href="./contact.html">Contact me</a></li>
-    </ul>
-    <h1 class="index">Welcome to Gavin's Bio.</h1>
+<body class="wrapper">
+  <div id="gavin">
+    <div class="container">
+      <ul class="nav nav-tabs">
+        <li role="presentation" class="active"><a href="./index.html">Home</a></li>
+        <li role="presentation"><a href="./about-me.html">About me</a></li>
+        <li role="presentation"><a href="./places.html">Places visited</a></li>
+        <li role="presentation"><a href="./contact.html">Contact me</a></li>
+      </ul>
+        <home-page></home-page>
+      <footer>
+            <p>Copyright &copy; 2017 Gavin Williams. All Right Reserved.</p>
+      </footer>
+    </div>
+  </div>
+  <script src="./js/jquery.min.js"></script>
+  <script src="./js/bootstrap.min.js"></script>
+  <script src="./js/vue.min.js"></script>
+  <script type="text/x-template" id="home">
     <div class="row">
+      <h1 class="index1">Welcome to Gavin's Bio.</h1>
       <div class="col-md-8 col-md-offset-2">
-        <img class="img img-responsive img-rounded" title="This photo was taken in 2010. Venue: Langebaan, Shark Bay" src="./me.jpg" alt="A picture of me.">
+        <img class="img img-responsive img-rounded" title="This photo was taken in 2010. Venue: Langebaan, Shark Bay" src="./img/me.jpg" alt="A picture of me.">
       </div>
     </div>
     <div class="row">
       <div class="col-md-4 col-md-offset-4">
-          <a href="./contact.html" title="Click Me">
-            <img class="img img-responsive" src="./email_signature_gavin.png" alt="email signature gavin">
-          </a>
-      </div>
+        <a href="./contact.html" title="Click Me">
+          <img class="img img-responsive img-rounded" src="./img/email_signature_gavin.png" alt="email signature gavin">
+        </a>
     </div>
-    <footer>
-          <p>Copyright &copy; 2017 Gavin Williams. All Right Reserved.</p>
-    </footer>
   </div>
+  </script>
+  <script src="./js/gavin.js"></script>
 </body>
 </html>
