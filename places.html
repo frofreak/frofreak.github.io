@@ -4,12 +4,10 @@
   <meta charset="utf-8">
   <title>Places visited</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <link rel="stylesheet" href="./css/styles.css">
 </head>
-<body>
+<body class="wrapper">
   <div class="container">
     <ul class="nav nav-tabs">
       <li role="presentation"><a href="./index.html">Home</a></li>
@@ -17,12 +15,12 @@
       <li role="presentation" class="active"><a href="./places.html">Places visited</a></li>
       <li role="presentation"><a href="./contact.html">Contact me</a></li>
     </ul>
-  </div><br/>
-<div class="container">
+    <h1 class="index1">Places visited</h1>
+    <br/>
   <div class="row">
     <div class="col-md-4">
       <div class="thumbnail">
-        <img src="./me.jpg" alt="A picture of me.">
+        <img class="img img-rounded" src="./img/me.jpg" alt="A picture of me.">
         <div class="caption">
           <h3>Flairing at Sharkbay, Langebaan 2009 </h3>
           <p>
@@ -34,7 +32,7 @@
     </div>
   <div class="col-md-4">
     <div class="thumbnail">
-      <img  class="duck" src="./duckie.jpg" alt="My pet Huck.">
+      <img  class="duck img img-rounded" src="./img/duckie.jpg" alt="My pet Huck.">
       <div class="caption">
         <h3>My pet Huck</h3>
         <p>Huck is a crossbreed between a hamster and a camel.</p>
@@ -43,7 +41,7 @@
   </div>
   <div class="col-md-4">
     <div class="thumbnail">
-      <img class="forest" src="./Forest3.jpg" alt="Forest.">
+      <img class="forest img img-rounded" src="./img/Forest3.jpg" alt="Forest.">
       <div class="caption">
         <h3>Huck's first art project</h3>
         <p>Huck is a very creative goldfish</p>
@@ -54,7 +52,7 @@
 <div class="row">
   <div class="col-md-4">
     <div class="thumbnail">
-      <img class="shark" src="./shark.png" atl="Shark">
+      <img class="shark img img-rounded" src="./img/shark.png" atl="Shark">
       <div class="caption">
       <h3>Dont be fooled</h3>
       <p>When Huck feels down, he changes into his shark
@@ -66,7 +64,7 @@
   </div>
   <div class="col-md-4">
     <div class="thumbnail">
-      <img class="zombie" src="./zombie.jpg" atl="Zombie">
+      <img class="zombie img img-rounded" src="./img/zombie.jpg" atl="Zombie">
       <div class="caption">
       <h3>Selfie</h3>
       <p>A Selfie of Huck</p>
@@ -75,11 +73,11 @@
   </div>
   <div class="col-md-4">
     <div class="thumbnail">
-      <img  class="rey" src="./rey.jpg" atl="rey mysterio">
+      <img  class="rey img img-rounded" src="./img/rey.jpg" atl="rey mysterio">
         <div class="caption">
           <h3>Rey 'Huck' Mysterio</h3>
           <p>Always wondered how Huck pays rent.
-             Turns out he's be posing as Rey Mysterio
+             Turns out he's been posing as Rey Mysterio
              in his spare time.
            </p>
          </div>
@@ -89,7 +87,7 @@
    <div class="row">
      <div class="col-md-4 col-md-offset-4">
        <a href="./contact.html" title="Click Me">
-        <img class="img img-responsive" src="./email_signature_gavin.png" alt="email signature gavin">
+        <img class="img img-responsive img-rounded" src="./img/email_signature_gavin.png" alt="email signature gavin">
         </a>
       </div>
     </div>
@@ -97,5 +95,8 @@
       <p>Copyright &copy; 2017 Gavin Williams. All Right Reserved.</p>
 </footer>
 </div>
+<script src="./js/jquery.min.js"></script>
+<script src="./js/bootstrap.min.js"></script>
+<script src="./js/vue.min.js"></script>
 </body>
 </html>
